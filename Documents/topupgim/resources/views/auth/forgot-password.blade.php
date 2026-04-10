@@ -1,0 +1,231 @@
+@extends('layouts.app')
+
+@section('title', 'Lupa Kata Sandi - Topupgim - TopUpGim')
+
+@push('scripts')
+<script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-10897083214');
+        gtag('config', 'UA-226385448-1');
+        gtag('config', 'G-1LGNR3GKBD');
+        gtag('get', 'G-1LGNR3GKBD', 'client_id', (cid) => {
+            document.querySelector('meta[name="gtag-cid"]')?.setAttribute("content", cid);
+        });
+    </script>
+<script type="text/javascript">
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W4PF2R5');
+    </script>
+<script type="text/javascript">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', '../../connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '957403245909694');
+        fbq('track', 'PageView');
+    </script>
+@endpush
+
+@section('content')
+<!doctype html>
+<html lang="id-ID">
+
+
+<!-- Mirrored from topupgim.com/auth/forgot-password by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Mar 2026 12:39:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    
+    <!-- Title Of Site -->
+    <!-- HTML Meta Tags -->
+    <title>Lupa Kata Sandi - Topupgim</title>
+    <meta name="description" content="TopUpGim.com adalah website Top Up Game dengan harga termurah se-Indonesia. Segera Topup akun Ml, FF, dan PUBGM kalian!" />
+    
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Lupa Kata Sandi - Topupgim">
+    <meta itemprop="description" content="TopUpGim.com adalah website Top Up Game dengan harga termurah se-Indonesia. Segera Topup akun Ml, FF, dan PUBGM kalian!">
+    <meta itemprop="image" content="../https://cdn.topupgim.com/assets/media/favicons/site-thumbnail.jpg">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Lupa Kata Sandi - Topupgim" />
+    <meta property="og:site_name" content="TopUpGim" />
+    <meta property="og:description" content="TopUpGim.com adalah website Top Up Game dengan harga termurah se-Indonesia. Segera Topup akun Ml, FF, dan PUBGM kalian!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="forgot-password.html" />
+    <meta property="og:image" itemprop="image" content="../https://cdn.topupgim.com/assets/media/favicons/site-thumbnail.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lupa Kata Sandi - Topupgim">
+    <meta name="twitter:description" content="TopUpGim.com adalah website Top Up Game dengan harga termurah se-Indonesia. Segera Topup akun Ml, FF, dan PUBGM kalian!">
+    <meta name="twitter:image" content="../https://cdn.topupgim.com/assets/media/favicons/site-thumbnail.jpg">
+    
+    <!-- Helper Meta Tags -->
+    <meta name="csrf-token" content="Y4jSgZTZ-fJ8uCIv5_eHqFr_H2C7d_0sdYvY">
+    <meta name="base-image" content="https://cdn.topupgim.com/" />
+    <meta name="base-image-svg" content="https://img.topupgim.com/" />
+    <meta name="gtag-cid" content="">
+    
+    <!-- Fav and Touch Icons -->
+    <link rel="shortcut icon" href="{{ asset(\'assets/media/favicons/favicon-small.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset(\'assets/media/favicons/favicon-medium.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset(\'assets/media/favicons/apple-touch-icon.png" />
+    
+    <!-- Stylesheets -->
+    
+    <!-- Fonts and Main Stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" />
+    <link rel="stylesheet" id="css-main" href="../https://cdn.topupgim.com/topupgim-dist/main/assets/css/topupgim.min-e0a62d0b.css" />
+    
+    <!-- Against Backlink -->
+    <link rel="canonical" href="forgot-password.html" />
+    
+    <!-- Global site tag (gtag.js) - Google Ads: 10897083214 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10897083214"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-10897083214');
+        gtag('config', 'UA-226385448-1');
+        gtag('config', 'G-1LGNR3GKBD');
+        gtag('get', 'G-1LGNR3GKBD', 'client_id', (cid) => {
+            document.querySelector('meta[name="gtag-cid"]')?.setAttribute("content", cid);
+        });
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W4PF2R5');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', '../../connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '957403245909694');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957403245909694&amp;ev=PageView&amp;noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    
+</head>
+
+<body>
+    <div id="page-container" class="remember-theme">
+        <!-- Main Container -->
+        <main id="main-container">
+            <!-- Page Content -->
+            <div class="bg-image" style="background-image: url('../assets/media/images/bg-minecraft.png');">
+                <div class="row g-0 justify-content-center bg-primary-dark-op">
+                    <div class="hero-static col-11 col-md-6 col-xl-4 d-flex align-items-center py-2 px-0">
+                        <!-- Forgot Password Block -->
+                        <div id="main-block" class="block block-transparent block-rounded block-mode-loading-circle w-100 mb-0 overflow-hidden">
+                            <div class="block-content block-content-full px-4 px-sm-5 py-5 bg-body-extra-light">
+                                <!-- Header -->
+                                <div class="mb-2 text-center">
+                                    <a class="link-fx fw-bold fs-1" href="{{ route('home') }}">
+                                        <span class="text-dark">TopUp</span><span class="text-primary">Gim</span>
+                                    </a>
+                                    <p class="text-uppercase fw-bold fs-sm text-muted">Lupa Kata Sandi</p>
+                                </div>
+                                <!-- END Header -->
+
+
+                                <!-- Forgot Password Form -->
+                                <form class="js-validation-auth-forgot-password" action="https://topupgim.com/auth/do-forgot-password" method="POST" novalidate="novalidate">
+                                    <input type="hidden" name="_csrf" value="Y4jSgZTZ-fJ8uCIv5_eHqFr_H2C7d_0sdYvY">
+                                    <input id="actionSeeds" type="hidden" name="actionSeeds" value="60faeffc843d4b539817b17495836d55">
+                                    <p class="fs-sm text-center text-muted">Kami akan mengirimkan tautan reset kata sandi ke nomor WhatsApp Anda.</p>
+                                    <div class="mb-4">
+                                        <div class="input-group input-group-lg">
+                                            <span class="input-group-text input-group-text-alt">
+                                                <i class="fa fa-phone"></i>
+                                            </span>
+                                            <input type="text" class="form-control form-control-lg form-control-alt phone" id="memberWhatsAppNo" name="memberWhatsAppNo" placeholder="Nomor WhatsApp" autocomplete="new-password">
+                                        </div>
+                                    </div>
+                                    <div class="text-center mb-4">
+                                        <button type="submit" class="btn btn-hero btn-primary">
+                                            <i class="fa fa-fw fa-paper-plane opacity-50 me-1"></i> Kirim Intruksi
+                                        </button>
+                                    </div>
+                                </form>
+                                <!-- END Forgot Password Form -->
+
+
+                                <div id="actionContainer" class="d-flex flex-column align-items-center w-100 d-none">
+                                    <span class="fs-lg mb-3 mt-3">Yay! Akun Telah Diverifikasi</span>
+                                    <div class="text-center mb-4">
+                                        <button id="actionBtn" type="button" class="btn btn-hero btn-success">
+                                            <i class="fa fa-fw fa-hand-back-point-right opacity-50 me-1"></i> Buat Password baru
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Forgot Password Block -->
+                    </div>
+                </div>
+            </div>
+            <!-- END Page Content -->
+        </main>
+        <!-- END Main Container -->
+    </div>
+    <!-- END Page Container -->
+
+    <!-- Hidden Inputs -->
+    <input type="hidden" id="hiddenMessageInfo" name="hiddenMessageInfo" value="">
+    <input type="hidden" id="hiddenMessageType" name="hiddenMessageType" value="">
+
+    <!-- JS Cores -->
+    <script src="../https://cdn.topupgim.com/topupgim-dist/main/assets/js/topupgim.app.min-8af9dc0d.js"></script>
+    <script src="../https://cdn.topupgim.com/topupgim-dist/main/assets/js/lib/jquery.min.js"></script>
+
+    <!-- Page JS Plugins -->
+    <script src="../https://cdn.topupgim.com/topupgim-dist/main/assets/js/plugins/socket-io-client/socket.io.min.js"></script>
+    <script src="../https://cdn.topupgim.com/topupgim-dist/main/assets/js/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="../https://cdn.topupgim.com/topupgim-dist/main/assets/js/plugins/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+    <!-- JS Helpers -->
+    <script>Topupgim.helpersOnLoad(['jq-message']);</script>
+
+    <!-- JS Pages -->
+    <script src="../https://cdn.topupgim.com/topupgim-dist/main/assets/js/pages/frontend-auth-forgot-password-ec52c432.js"></script>
+</body>
+
+
+<!-- Mirrored from topupgim.com/auth/forgot-password by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Mar 2026 12:39:32 GMT -->
+</html>
+@endsection
